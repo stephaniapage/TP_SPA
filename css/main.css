@@ -1,0 +1,122 @@
+header {
+    background: rgb(51, 49, 49);
+    height: 150px;
+}
+
+#logo {
+    margin-top: 20px;
+}
+
+nav {
+    display: inline;
+    position: relative;
+}
+
+nav a {
+    background: grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 70px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 5px 3px black;
+}
+
+nav a:hover {
+    color: rgb(223, 221, 221);
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background: rgb(109, 104, 104);
+}
+
+#services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: solid rgb(34, 33, 33);
+    border-bottom: solid rgb(34, 33, 33);
+}
+
+#services h1, h4 {
+    text-align: center;
+}
+
+#services img {
+    padding: 0px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px black;
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#team {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#team h1 {
+    text-align: center;
+}
+
+table {
+    background: rgb(109, 104, 104);
+}
+
+#portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#portfolio p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#sketch {
+    width: 100%;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+form {
+    background: rgb(109, 104, 104);
+}
+
+footer {
+    background: rgb(51, 49, 49);
+    height: 160px;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid;
+}
+
+footer p {
+    color: rgb(243, 234, 234);
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+#copy {
+    text-align: center;
+}
