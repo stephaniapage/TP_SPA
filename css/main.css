@@ -1,6 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background: rgb(51, 49, 49);
     height: 150px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 #logo {
@@ -27,6 +35,10 @@ nav a {
 nav a:hover {
     color: rgb(223, 221, 221);
     text-decoration: none;
+}
+
+nav a:active {
+    transform: translate(3px, 3px); 
 }
 
 .container-fluid {
@@ -100,20 +112,23 @@ table {
 
 #sketch {
     width: 100%;
+    padding-right: 20px;
 }
 
 .map-container{
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-bottom:44%;
     position:relative;
     height:0;
     }
-    .map-container iframe{
+    
+.map-container iframe{
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
+    padding-left: 40px;
     }
 
 form {
@@ -129,6 +144,7 @@ footer {
     background: rgb(51, 49, 49);
     height: 160px;
     margin: 0;
+    margin-top: 20px;
     padding: 0;
 }
 
