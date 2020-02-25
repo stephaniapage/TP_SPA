@@ -2,37 +2,43 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+                body {
+                    margin: 0;
+                    background: rgb(180, 191, 195);
+                }
 
 header {
     /* background: rgb(51, 49, 49); */
     background: rgb(0, 122, 114);
-    height: 150px;
     top: 0;
-    width: 100%;
-    z-index: 999;
-    position: fixed;
+    width: 40%;
+    height: auto;
 }
 
-.carousel {
-    top : 150px;
+
+/* main {
+    margin-top: 50px;
+} */
+
+
+#logo img {
+    padding: 2%;
+    height: 90%;
+    width: auto;
 }
 
-#logo {
-    margin-top: 20px;
-    padding-left: 40px;
-}
-
-nav {
-    display: inline;
-    position: relative;
-}
+/* nav { */
+    /* display: block; */
+    /* position: relative; */
+/* } */
 
 nav a {
     background: rgb(180, 191, 195);
     border-radius: 5px;
     padding: 5px;
-    margin: 5px;
-    margin-top: 70px;
+    margin: 10px;
+    height: 40px;
+    /* margin-top: 70px; */
     text-decoration: none;
     color: black;
     box-shadow: 5px 5px 3px black;
@@ -52,15 +58,11 @@ nav a:active {
     padding: 0;
 }
 
-body {
-    margin: 0;
-    background: rgb(180, 191, 195);
-}
 
 #services {
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 
 #services h2 {
@@ -87,9 +89,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
+    padding: 20px;
     text-align: justify;
-    width: 350px;
+    /* width: 350px; */
 }
 
 #team {
